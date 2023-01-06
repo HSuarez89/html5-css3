@@ -21,7 +21,7 @@ header {
     padding-bottom: 10px;
     background-image: linear-gradient(to bottom,  #51DB88, #225C39);
 }
-header h1 {
+header > h1 {
     font-family: 'Bebas Neue', cursive;
     font-size: 3em;
     font-weight: normal;
@@ -29,7 +29,7 @@ header h1 {
     margin-top: 0;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.500);
 }
-header p {
+header > p {
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 0px;
     text-align: center;
