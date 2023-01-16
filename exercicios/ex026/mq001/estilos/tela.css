@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/* Estilo para telas */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+header {
+    background-color: lightgray;
+    padding-top: 10px;
+}
+header > h1 {
+    text-align: center;
+}
+header ul {
+    list-style-type: none;
+    background-color: grey;
+}
+header li {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+
+article {
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+    max-width: 700px;
+    text-align: justify;
+    text-indent: 20px;
+}
+article > h2 {
+    padding-bottom: 30px;
+    text-indent: 0px;
+}
