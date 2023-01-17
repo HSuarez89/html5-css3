@@ -1,3 +1,41 @@
 @charset "UTF-8";
 
 /* Todas as demais medias */
+/* Typical device breakpoints */
+
+@media print { /* Impressão */
+    body {
+        background-image: url(../imagens/back-print.jpg); /* Não imprime backgroud */
+    }
+    img#phone {display: none;}
+    img#print {display: block;}
+    main {
+        border: 2px solid black;
+    }
+    main h1 {
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+        text-shadow: none;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) { /* Tablet */
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    img#phone {display: none;}
+    img#tablet {display: block;}
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) { /* Desktop */
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    img#phone {display: none;}
+    img#pc {display: block;}
+}
+@media screen and (min-width: 1201px) { /* Grandes telas */
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    img#phone {display: none;}
+    img#tv {display: block;}
+}
