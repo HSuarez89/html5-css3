@@ -48,7 +48,7 @@ div#formulario > p {
     font-size: 0.8em;
 }
 div.campo > span {
-    transform: translateY(7px);
+    transform: translate(3px, 7px);
 }
 div.campo > input {
     width: calc(100% - 30px);
